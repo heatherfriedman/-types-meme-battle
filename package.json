@@ -1,0 +1,8 @@
+{
+  "name": "@types/meme-battle",
+  "version": "0.0.1",
+  "description": "library for types and stuff",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "dependencies": {}
+}

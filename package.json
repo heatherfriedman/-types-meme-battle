@@ -1,8 +1,12 @@
 {
-  "name": "@types/meme-battle",
+  "name": "meme-battle-core",
   "version": "0.0.1",
+  "main": "./lib",
   "description": "library for types and stuff",
-  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib"
+  },
   "license": "MIT",
   "dependencies": {}
 }

@@ -1,10 +1,12 @@
 {
   "name": "meme-battle-core",
   "version": "0.0.1",
-  "main": "./lib",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "description": "library for types and stuff",
   "scripts": {
     "build": "tsc",
+    "watch": "tsc -w",
     "clean": "rm -rf lib"
   },
   "license": "MIT",
